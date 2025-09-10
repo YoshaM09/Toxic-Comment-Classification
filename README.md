@@ -11,7 +11,7 @@ A machine learning pipeline for detecting toxic comments in text using **LSTM-ba
 - Cleaned text data using **Texthero** (removed digits, URLs, stop words, extra spaces).  
 - Applied **tokenization and padding** to standardize input lengths.  
 - Built an **LSTM model** with dense, batch normalization, and dropout layers to prevent overfitting.  
-- Supports predictions on **training, validation, and test sets**.  
+- Supports predictions on **training, and test datasets**.  
 - Multi-label classification for detecting multiple toxicity types per comment.  
 
 ## ✨ Features
@@ -31,7 +31,7 @@ A machine learning pipeline for detecting toxic comments in text using **LSTM-ba
 - **Model Type**: LSTM-based Neural Network for text classification
 - **Environment:** Jupyter Notebook  
 
-## ⚡ Setup & Installation
+## 🚀 Setup & Installation
 
 1. ### Clone the repository
 ```bash
@@ -51,7 +51,7 @@ jupyter notebook notebook2_toxic_comment_classification.ipynb
 4. ### Run the Notebook
 - Run the cells sequentially to reproduce the text preprocessing, tokenization, and model training steps, and to generate predictions on both **training, and test datasets**.
 
-## 🚀 Usage
+## 🎬 Usage
 
 - Input raw text comments into the notebook.  
 - The model outputs predictions for the following categories: **toxic, severe toxic, obscene, threat, insult, identity hate**.  
