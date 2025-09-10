@@ -1,8 +1,20 @@
-# Toxic Comment Classification
+# Toxic Comment Classification 🚨
+
+[![Python](https://img.shields.io/badge/Python-3.10-blue)](https://www.python.org/)
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange)](https://jupyter.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 A machine learning pipeline for detecting toxic comments in text using **LSTM-based neural networks**. This project demonstrates text preprocessing, tokenization, and sequence modeling for text classification tasks.  
 
-## Features
+## 🔹 Highlights
+
+- Cleaned text data using **Texthero** (removed digits, URLs, stop words, extra spaces).  
+- Applied **tokenization and padding** to standardize input lengths.  
+- Built an **LSTM model** with dense, batch normalization, and dropout layers to prevent overfitting.  
+- Supports predictions on **training, validation, and test sets**.  
+- Multi-label classification for detecting multiple toxicity types per comment.  
+
+## ✨ Features
 
 - **Text Cleaning Pipeline**: Cleans input text using **Texthero**, removing digits, URLs, extra spaces, stop words, and other noise.  
 - **Tokenization & Padding**: Converts cleaned text into tokens and applies padding to ensure uniform input size for the model.  
@@ -12,13 +24,14 @@ A machine learning pipeline for detecting toxic comments in text using **LSTM-ba
   - **Batch normalization** to stabilize training  
   - **Dropout layers** to prevent overfitting  
 
-## Tech Stack
+## 🛠 Tech Stack
 
 - **Programming Language**: Python  
 - **Libraries / Frameworks**: Texthero, TensorFlow / Keras, NumPy, Pandas  
-- **Model Type**: LSTM-based Neural Network for text classification  
+- **Model Type**: LSTM-based Neural Network for text classification
+- **Environment:** Jupyter Notebook  
 
-## Setup & Installation
+## ⚡ Setup & Installation
 
 1. ### Clone the repository
 ```bash
@@ -38,19 +51,16 @@ jupyter notebook notebook2_toxic_comment_classification.ipynb
 4. ### Run the Notebook
 - Run the cells sequentially to reproduce the text preprocessing, tokenization, and model training steps, and to generate predictions on both **training, and test datasets**.
 
-## Usage
+## 🚀 Usage
 
 - Input raw text comments into the notebook.  
 - The model outputs predictions for the following categories: **toxic, severe toxic, obscene, threat, insult, identity hate**.  
 - Each comment can belong to **one or more categories**, enabling multi-label classification.
 
-## Contributing
+## 🤝 Contributing
 
 - Contributions are welcome! Please submit a pull request or open an issue for suggestions.
 
-## License
+## 📄 License
 
 - This project is licensed under the MIT License.
-
-
-
