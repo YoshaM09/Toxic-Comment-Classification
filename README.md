@@ -33,22 +33,22 @@ A machine learning pipeline for detecting toxic comments in text using **LSTM-ba
 
 ## 🚀 Setup & Installation
 
-1. ### Clone the repository
+### 1. Clone the repository
 ```bash
 git clone https://github.com/YoshaM09/Toxic-Comment-Classification.git
 cd Toxic-Comment-Classification
 ```
 
-2. ### Install dependencies
+### 2. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
-3. ### Open the notebook
+### 3. Open the notebook
 ```bash
 jupyter notebook notebook1_toxic_comment_classification.ipynb
 jupyter notebook notebook2_toxic_comment_classification.ipynb
 ```
-4. ### Run the Notebook
+### 4. Run the Notebook
 - Run the cells sequentially to reproduce the text preprocessing, tokenization, and model training steps, and to generate predictions on both **training, and test datasets**.
 
 ## 🎬 Usage
